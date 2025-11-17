@@ -5,17 +5,19 @@
 ### Section 3: Instructions for Reproducing the Results
 ## Software and Platform
 
-**Software:** Google Colab and Jupyter Notebooks
+**Software:** Google Colab
 
 **Add-on packages:**
 - requests
 - zipfile
 - os
 - random
+- time
 - IPython.display
 - Pillow
 - numpy
-  
+- matplotlib.pyplot
+ 
 
 **Platform:** Windows and Mac
 
