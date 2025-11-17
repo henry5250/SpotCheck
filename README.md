@@ -28,15 +28,19 @@ VaxxVote/
 │ ├── final_datasets/
 │ │ ├── final_Coccinella_novemnotata.zip
 │ │ └── final_Harmonia_axyridis.zip
-│ ├── Coccinella_novemnotata.zip # raw
-│ ├── Harmonia_axyridis.zip # raw
+│ ├── original_datasets/
+│ │ ├── Coccinella_novemnotata.zip
+│ │ └── Harmonia_axyridis.zip
 │ └── README.md
 ├── scripts/
 │ ├── 1_scraping.ipynb
-│ ├── 1_exploratoryplots.ipynb
-│ ├── 2_preprocessing.ipynb
-│ └── 3_model.ipynb
+│ ├── 2_exploratoryplots.ipynb
+│ ├── 3_preprocessing.ipynb
+│ ├── 4_model.ipynb
 ├── outputs/
+│ ├── exploratory_plots/
+│ │ ├── f_pixel intensity histogram for Coccinella_novemnotata (RGB channels).png
+│ │ ├── f_pixel intensity histogram for Coccinella_novemnotata (RGB channels).png
 │ ├── .png
 │ └── .png
 ├── LICENSE
@@ -69,7 +73,7 @@ VaxxVote/
    - This will generate descriptive statistics and visualizations in `README.md` in the data folder
 
    **Step 3: Machine Learning Models**
-   - Open `scripts/3_model.ipynb` in Jupyter Notebook or upload to Google Colab
+   - Open `scripts/4_model.ipynb` in Jupyter Notebook or upload to Google Colab
    - Execute all cells in order
    - This will perform the CNN and generate performance visualizations in the `output` folder <and whatever else it does insert here>
 
